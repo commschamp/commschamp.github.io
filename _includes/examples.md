@@ -49,5 +49,5 @@ itself is quite complex with hundreds of messages. It uses custom checksum
 calculation algorithms and injects multiple code snippets to fix incorrect
 or incomplete functionality available by default.
 The **generated** code can be viewed at 
-- [cc.ublox.generated](https://github.com/arobenko/cc.ublox.generated).
+[cc.ublox.generated](https://github.com/arobenko/cc.ublox.generated).
 
