@@ -1,2 +1,2 @@
 This repository contains github pages for 
-[CommsChampion Ecosystem]().
+[CommsChampion Ecosystem](arobenko.github.io/cc).
