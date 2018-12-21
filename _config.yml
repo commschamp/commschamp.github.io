@@ -4,21 +4,25 @@
 title: Implement Binary Communication Protocols in C++(11)
 url: "https://arobenko.github.io"
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-131276295-1
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Code Generation for Binary Communication Protocols in C++(11)
 author:
-  name:
-  email:
+  name: Alex Robenko
+  email: arobenko@gmail.com
   twitter: # twitter username without the @ symbol
+
 social:
-  name: Hydra Template
+  name: Alex Robenko
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://arobenko.github.io/cc
+    - https://github.com/arobenko
+    - https://www.linkedin.com/in/arobenko/
+    - https://legacy.gitbook.com/@arobenko
 
 # -----
 # Build

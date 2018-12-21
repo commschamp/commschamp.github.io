@@ -1,2 +1,2 @@
 # Tutorials
-- [Getting Started]({% post_url 2018-01-01-getting-started %})
+- [Getting Started]({% post_url 2018-12-21-getting-started %})
