@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="content">
+	<section class="page">
+		<div class="container {% if page.full_width %}max-container{% endif %}">
+            {% capture contact_include %}{% include contact.md %}{% endcapture %}
+            {{ contact_include | markdownify }}
+		</div>
+	</section>
+</div>
+

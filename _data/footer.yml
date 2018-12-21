@@ -1,0 +1,18 @@
+- links:
+  - name: Blog
+    link: /blog/
+  - name: Articles
+    link: /articles/
+- links:    
+  - name: Examples
+    link: /examples/
+  - name: Licenses
+    link: /licenses/ 
+- links:
+  - name: Contact
+    link: /contact/     
+- links:
+  - name: RSS
+    link: /feed.xml
+    social_icon: RSS
+    new_window: false

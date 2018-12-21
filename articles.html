@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="content">
+	<section class="page">
+		<div class="container {% if page.full_width %}max-container{% endif %}">
+            {% capture articles_include %}{% include articles.md %}{% endcapture %}
+            {{ articles_include | markdownify }}
+		</div>
+	</section>
+</div>

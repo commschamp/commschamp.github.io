@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="content">
+	<section class="page">
+		<div class="container {% if page.full_width %}max-container{% endif %}">
+            {% capture licenses_include %}{% include licenses.md %}{% endcapture %}
+            {{ licenses_include | markdownify }}
+		</div>
+	</section>
+</div>
