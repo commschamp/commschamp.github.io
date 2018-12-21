@@ -12,6 +12,11 @@ layout: default
 			{% if page.description %}
 				<p class="subtext">{{ page.description }}</p>
 			{% endif %}
+			{% if page.feed %}
+				<div class="center-text">
+					<div class="button"><a href="{{ site.baseurl }}/{{ page.feed }}">RSS Feed</a></div>
+				</div>
+			{% endif %}
 			{{ content }}
 		</div>
 	</section>
