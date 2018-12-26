@@ -1,9 +1,7 @@
 ---
-date: 2018-12-25
-title: v1.0 of COMMS Library is released.
+date: 2018-12-27
+title: New (v1.1) release of commsdsl.
 categories:
   - news
 ---
-It is first major / stable release of the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library).
-The API has been stabilized and no more breaking changes are expected.
+See [release notes](https://github.com/arobenko/commsdsl/releases/tag/v1.1).
