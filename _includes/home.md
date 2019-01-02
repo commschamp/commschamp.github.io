@@ -157,9 +157,12 @@ Unless commercial closed source license is obtained for the latter, the
 generated code must remain open source and the picked license be compatible 
 with **GPLv3**.
 
-# Get in Touch
+# Communication
 For any personal issue, question or request please send an [e-mail](/contact/).
 
 For any technical question that may be of interest to any other developer as
 well please consider opening an issue on relevant project on [github](https://github.com/arobenko/) 
 or use newly created [google group](https://groups.google.com/forum/#!forum/commschampion).
+
+It is also recommended to grab [RSS feed](/feed.xml) of the [blog](/blog/)
+to keep yourself updated with latest news and articles.
