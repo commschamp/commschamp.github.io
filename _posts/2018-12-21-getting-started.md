@@ -12,7 +12,7 @@ really complicated.
 ----
 
 At first it is recommended to take a look at the definition of the [synthetic 
-demo protocols](/examples#synthetic-demo-protocols). Please review both the
+demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols). Please review both the
 **DSL** schema definition as well as generated code. Note how the generated
 code is self-explanatory and how easy it is to read it. The headers-only
 protocol definition files reside in **include** subdirectory.
@@ -30,8 +30,8 @@ and the protocol definition plugin to them in addition to headers-only
 well the protocol definition headers themselves.
 
 It is recommended to try and build the projects of the
-[synthetic demo protocols](/examples#synthetic-demo-protocols) and follow
-instructions on 
+[synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) and 
+follow instructions on 
 [How to Use CommsChampion Tools](https://github.com/arobenko/comms_champion/wiki/How-to-Use-CommsChampion-Tools)
 wiki page in order to get to know the environment for protocol visualization,
 debugging and analysis.
@@ -45,10 +45,10 @@ application. Please download the doxygen generated documentation of the
 the latest [release artifacts](https://github.com/arobenko/comms_champion/releases) 
 and read **How to Use Defined Custom Protocol** tutorial page. It is also 
 recommended to analyze the example client / server applications of the
-[synthetic demo protocols](/examples#synthetic-demo-protocols) and see
-how they follow the instructions from the tutorial. Note, that the
-[synthetic demo protocols](/examples#synthetic-demo-protocols) projects
-themselves has their own doxygen generated documentation in their
+[synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) and 
+see how they follow the instructions from the tutorial. Note, that the
+[synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) 
+projects themselves has their own doxygen generated documentation in their
 **release artifacts**. It may be beneficial the read those as well.
 
 ----
@@ -58,7 +58,7 @@ Please download and read the [CommsDSL](https://github.com/arobenko/CommsDSL-Spe
 specification first (read online 
 [here](https://legacy.gitbook.com/book/arobenko/commsdsl-specification/details)).
 It is recommended to use existing projects of 
-[synthetic demo protocols](/examples#synthetic-demo-protocols) as the basis
+[synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) as the basis
 and introduce new fields / messages to their DSL shema(s). Please observe 
 the generated code and/or review the changes in **cc_view** application
 from [CommsChampion Tools](https://github.com/arobenko/comms_champion#commschampion-tools).
@@ -74,11 +74,11 @@ inject custom code into the generated one.
 documentation of the [COMMS library](https://github.com/arobenko/comms_champion#comms-library).
 It explains what custom code is expected to look like.
 - Review custom code snippets from available 
-[real life open protocols](/examples#real-life-open-protocols).
+[real life open protocols]({{ site.baseurl }}/examples#real-life-open-protocols).
 
 ----
 
 In case there are some open question remaining, please review the available tutorial
-[articles](/articles). Maybe your problem has already been solved and described
-in one of them. If not, please [send](/contact) me a question. If your problem
-turns out to be common, it will find its way to one of the tutorial articles.
+[articles]({{ site.baseurl }}/articles). Maybe your problem has already been solved and 
+described in one of them. If not, please [send]({{ site.baseurl }}/contact) me a question. If 
+your problem turns out to be common, it will find its way to one of the tutorial articles.

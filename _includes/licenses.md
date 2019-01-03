@@ -34,7 +34,7 @@ product within the same product line, pay $500 more to get **Product-Line**
 license (totals to $1500 payment altogether), and so on.
 
 # How to Obtain a License
-At this stage please refer to [CONTACT](/contact/) page and send an e-mail
+At this stage please refer to [CONTACT]({{ site.baseurl }}/contact/) page and send an e-mail
 with a request to obtain specific license. You'll get a response with
 available payment options. After the payment is performed you'll be sent
 a signed PDF with the terms of the granted license, which you should keep together
