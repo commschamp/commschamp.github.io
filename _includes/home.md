@@ -26,7 +26,7 @@ of boilerplate code, which needs to be written to integrate generated
 code into the product's code base. 
 
 The binary communication protocols, which may serve as
-an API to the device, on the other hand, require different approach.
+an API or control interface of the device, on the other hand, require different approach.
 Their specification puts major emphasis on binary data layout, what values are
 being transferred (data units, scaling factor, special values, etc...) 
 and how the other end is expected 
@@ -37,6 +37,9 @@ to specify such meta-information (other than in comments), or don't know what to
 do with it when provided. As the result the developer still has to write a 
 significant amount of boilerplate code in order to integrate the generated 
 serialization focused code to be used in binary communication protocol handling.
+There is an article called 
+[Communication is more than just serialization]({{ site.baseurl }}{% post_url 2019-01-05-communication-more-than-serialization %}) which provides more detailed examples on the mentioned
+shortcomings.
 
 All of the available schema based binary protocols generation solutions 
 have multiple limitations,
@@ -163,8 +166,9 @@ For any personal issue, question or request please send an
 
 For any technical question that may be of interest to any other developer as
 well please consider opening an issue on relevant project on [github](https://github.com/arobenko/) 
-or use newly created [google group](https://groups.google.com/forum/#!forum/commschampion).
+or use [CommsChampion google group](https://groups.google.com/forum/#!forum/commschampion).
 
 It is also recommended to grab [RSS feed]({{ site.baseurl }}/feed.xml) of the 
-[blog]({{ site.baseurl }}/blog/)
+[blog]({{ site.baseurl }}/blog/) and/or become a member of the
+[CommsChampion google group](https://groups.google.com/forum/#!forum/commschampion)
 to keep yourself updated with latest news and articles.
