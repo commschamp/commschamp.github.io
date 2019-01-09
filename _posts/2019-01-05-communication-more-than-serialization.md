@@ -103,7 +103,7 @@ The generated C++ code will contain the necessary set / get functions:
 struct Timeout : public comms::field::IntValue<...> 
 {
     static constexpr std::uint32 valueInfinite() { return 0; }
-    bool isInfinite() cosnt { ...}
+    bool isInfinite() const { ...}
     void setInfinite() {...}
 };
 ```
