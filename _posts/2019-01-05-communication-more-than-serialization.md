@@ -41,6 +41,44 @@ error-prone. If you are experienced developer you are
 probably going to wrap such conversion math in a function, but still there is a need
 to update the written business logic code in case the protocol definition changes.
 
+----
+
+The [CommsChampion Ecosystem]({{ site.baseurl }}) supports definition of value's units
+in its DSL.
+```
+<int name="Distance" type="uint32" units="cm" />
+```
+The generated C++ code will contain the **compile time** meta information about the
+units used and [COMMS library](https://github.com/arobenko/comms_champion#comms-library)
+provides functions to calculate the value of needed units.
+```cpp
+auto distInMeters = comms::units::getMeters<double>(field_distance());
+auto distInMillimeters = comms::units::getMillimeters<unsigned>(field_distance());
+```
+Even if units in the field definition change, the integration C++ code doesn't 
+need to be changed. The recompilation of the source code will update the math.
+
+There are some protocols that introduce some scaling (multiplication) factor and 
+serialize floating point values as integers. 
+The [CommsChampion Ecosystem]({{ site.baseurl }}) supports scaling as well.
+For example, definition of latitude that multiplies floating point value
+of degrees by 10'000'000 before serialization (and dividing after deserialization
+to get the floating point value) may look like this:
+```
+<int name="lat" type="int32" units="deg" scaling="1/10000000" />
+```
+The integration code may use unit conversion functions provided by the 
+[COMMS library](https://github.com/arobenko/comms_champion#comms-library)
+to perform the right math.
+```
+auto latInDegrees = comms::units::getDegrees<double>(field_lat());
+auto latInRadians = comms::units::getRadians<double>(field_lat());
+``` 
+All the math is done automatically and the C++ code doesn't need to be changed
+when the scaling or units modified in the protocol definition DSL.
+
+----
+
 Another example would be to have values with special meaning. Let's say 
 there is a need to communicate a delay in seconds before some event needs to 
 happen. There should be some special value that indicates **infinite**
@@ -51,6 +89,27 @@ at least one extra piece of boilerplate code that wraps the special value
 and gives it a name. Wouldn't it be better if the generated code
 contained such helper function already?
 
+----
+
+The DSL used by the [CommsChampion Ecosystem]({{ site.baseurl }}) allows
+definition of the special values.
+```
+<int name="Timeout" type="uint32" units="sec">
+    <special name="Infinite" val="0" />
+</int>
+```
+The generated C++ code will contain the necessary set / get functions:
+```cpp
+struct Timeout : public comms::field::IntValue<...> 
+{
+    static constexpr std::uint32 valueInfinite() { return 0; }
+    bool isInfinite() cosnt { ...}
+    void setInfinite() {...}
+};
+```
+----
+
+
 Also many communication protocols limit ranges of valid values for some
 particular fields and require messages with invalid values being ignored as
 malformed data. Usually serialization tools like **ProtoBuf** don't
@@ -58,6 +117,28 @@ provide such feature of specifying and validating the held value. Such valid
 value ranges also have tendency to change (usually expand) from version to
 version of the protocol. It also leads to a necessity to write extra boilerplate
 code, that needs to be rechecked and modified every time the protocol is updated.
+
+----
+
+The DSL used by the [CommsChampion Ecosystem]({{ site.baseurl }}) allows
+definition of multiple valid values and/or ranges.
+```
+<int name="SomeValue" type="uint8">
+    <validRange value="[0, 10]" />
+    <validValue value="15" />
+    <validRange value="[53, 55]" />
+</int>
+```
+The generated C++ code will contain the function to check the validity of the
+field's value:
+```cpp
+class SomeValue : public comms::field::IntValue<...> 
+{
+public:
+    bool valid() const { /* all the necessary checks here */ }
+};
+```
+----
 
 Such list of various communication nuances, which are not covered by pure
 serialization and require extra boilerplate code, can go on and on. That's 
