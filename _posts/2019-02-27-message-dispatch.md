@@ -1,5 +1,5 @@
 ---
-date: 2019-02-19
+date: 2019-02-27
 title: Advanced Guide to Message Dispatching
 categories:
   - tutorials
@@ -26,7 +26,7 @@ msg->dispatch(handler); // Invoking appropriate handler.handle()
 ```
 Such dispatching is implemented using [Double Dispatch Idiom](https://en.wikipedia.org/wiki/Double_dispatch)
 with **O(1)** runtime complexity. However, it requires the message interface
-class to such polymorphic dispatch.
+class to define such polymorphic dispatch.
 ```
 class MyHandler;
 
@@ -121,7 +121,7 @@ provided tuple of message types (**AllMessages**) at **compile time**
 and generate appropriate global static dispatch tables (initialized before
 call to **main()**).
 
-In case the numeric ID are sequential and unique with no more than 10% of the gaps
+In case the numeric IDs are sequential and unique with no more than 10% of the gaps
 (the ID of the last message is not greater than number of message types in
 the provided tuple multiplied by 1.1), the generated dispatch tables and logic provide
 **O(1)** runtime complexity to dispatch message object into appropriate handler. 

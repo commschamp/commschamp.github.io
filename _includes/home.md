@@ -8,7 +8,8 @@ Interested? Then buckle up and read on.
 # Motivation
 Almost every electronic device/component nowadays has to be able to communicate
 to other devices, components, or outside world over some I/O link. Such communication
-is implemented using various communication protocols. The implementation of
+is implemented using various communication protocols, which are notorious for
+requiring a significant amount of boilerplate code to be written. The implementation of
 these protocols can be a tedious, time consuming and error-prone process.
 Therefore, there is a growing tendency among developers to use third party code 
 generators for data (de)serialization. Usually such tools receive description
@@ -32,7 +33,8 @@ being transferred (data units, scaling factor, special values, etc...)
 and how the other end is expected 
 to behave on certain values (what values are considered to be valid and how to
 behave on reception of invalid values). It requires having some extra meta-information
-attached to described data structures. The existing tools either don't have means
+attached to described data structures, which needs to propagate and be accessible
+in the generated code. The existing tools either don't have means
 to specify such meta-information (other than in comments), or don't know what to
 do with it when provided. As the result the developer still has to write a 
 significant amount of boilerplate code in order to integrate the generated 
