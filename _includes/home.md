@@ -171,6 +171,5 @@ well please consider opening an issue on relevant project on [github](https://gi
 or use [CommsChampion google group](https://groups.google.com/forum/#!forum/commschampion).
 
 It is also recommended to grab [RSS feed]({{ site.baseurl }}/feed.xml) of the 
-[blog]({{ site.baseurl }}/blog/) and/or become a member of the
-[CommsChampion google group](https://groups.google.com/forum/#!forum/commschampion)
+[blog]({{ site.baseurl }}/blog/) 
 to keep yourself updated with latest news and articles.
