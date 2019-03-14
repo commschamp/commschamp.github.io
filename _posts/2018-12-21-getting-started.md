@@ -63,7 +63,7 @@ and introduce new fields / messages to their DSL shema(s). Please observe
 the generated code and/or review the changes in **cc_view** application
 from [CommsChampion Tools](https://github.com/arobenko/comms_champion#commschampion-tools).
 
-In case syntax of [CommsDSL](https://github.com/arobenko/CommsDSL-Specification/releases) 
+In case syntax of [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) 
 has some limitations that don't allow generation of the correct code and
 injection of some custom code snippets are required, please 
 do the following steps as well:
