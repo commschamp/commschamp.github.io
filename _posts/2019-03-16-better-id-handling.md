@@ -1,5 +1,5 @@
 ---
-date: 2019-03-14
+date: 2019-03-16
 title: Better Custom Handling of Message ID
 categories:
   - tutorials
@@ -20,7 +20,7 @@ provides default **comms::protocol::MsgIdLayer** protocol
 stack layer to manage message ID information in the protocol framing. 
 However, it may be insufficient (or incorrect) for some particular use cases, such as
 using **bitfield** field to store both numeric message ID and some extra flags
-(like <a href="http://mqtt.org">MQTT</a> protocol does). 
+[MQTT](http://mqtt.org) protocol does). 
 The **Protocol Stack Definition Tutorial** page of the 
 [COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
 documentation explains how to define new (custom)
@@ -115,7 +115,7 @@ convenience member function to access the stored **flags** field, while
 usage of **COMMS_BITMASK_BITS_SEQ()** in the flags field definition will
 genereate **getBitValue_X()** and **setBitValue_X()** convenience member
 functions to get / set values of the bits (where **X** is one of the defined
-names: **bit0**, **bit1**, **bit2, and **bit3**).
+names: **bit0**, **bit1**, **bit2**, and **bit3**).
 
 Now, let's define the **bitfield** field, that splits one byte in half to
 store numeric message ID (in lower 4 bits) as well as extra flags (in upper 4 bits)
@@ -230,7 +230,7 @@ public:
 The **comms::protocol::MsgIdLayer** doesn't have any virtual functions and
 as the result not able to provide any polymorphic behavior. In order to be
 able to extend its default functionality there is a need to use 
-<a href="https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern">Curiously Recurring Template Pattern</a>.
+[Curiously Recurring Template Pattern](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern).
 It is done by passing **comms::option::ExtendingClass** extension option with
 the type of the layer class being defined to the **comms::protocol::MsgIdLayer**.
 
