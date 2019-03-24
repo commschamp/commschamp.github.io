@@ -1,7 +1,7 @@
 ---
-date: 2019-03-23
-title: New (v1.3) release of commsdsl.
+date: 2019-03-24
+title: Bug fixing (v1.3.1) release of commsdsl.
 categories:
   - news
 ---
-See [release notes](https://github.com/arobenko/commsdsl/releases/tag/v1.3).
+See [release notes](https://github.com/arobenko/commsdsl/releases/tag/v1.3.1).
