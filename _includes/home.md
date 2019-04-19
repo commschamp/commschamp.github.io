@@ -167,8 +167,7 @@ For any personal issue, question or request please send an
 [e-mail]({{ site.baseurl }}/contact/).
 
 For any technical question that may be of interest to any other developer as
-well please consider opening an issue on relevant project on [github](https://github.com/arobenko/) 
-or use [CommsChampion google group](https://groups.google.com/forum/#!forum/commschampion).
+well please consider opening an issue on relevant project on [github](https://github.com/arobenko/).
 
 It is also recommended to grab [RSS feed]({{ site.baseurl }}/feed.xml) of the 
 [blog]({{ site.baseurl }}/blog/) 
