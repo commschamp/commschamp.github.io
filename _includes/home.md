@@ -127,10 +127,7 @@ allows easy application specific **compile time** customization of polymorphic
 interfaces and some data storage types. No usage of RTTI and/or exceptions. 
 The usage of dynamic memory allocation may also be excluded.
 
-- Having "out of the box" protocol analysis and visualization tools.
-
-- Focus on safe handling of malformed data rather than on quickest possible
-serialization and/or network transfer.
+- Robust and safe handling of malformed input data.
 
 - Significantly minimizing amount of boilerplate code required to integrate the
 usage of protocol definition into the business logic.
@@ -140,6 +137,8 @@ is incorrect or incomplete.
 
 - Meta-programming friendly. Most classes define similar and predictable
 public interface which allows easy compile time analysis and optimizations.
+
+- Having "out of the box" protocol analysis and visualization tools.
 
 - **NOT** using any socket / network abstractions and allowing full control
 over serialized data for extra transport wrapping and/or external transmit over
