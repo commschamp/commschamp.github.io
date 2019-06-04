@@ -25,7 +25,7 @@ and contains [test](https://github.com/arobenko/cc.demo1.generated/tree/master/t
 folder containing test application(s). 
 
 At this moment there is only one available application called
-**<proj_name>_input_test**. It reads the binary data from standard input and
+**&lt;proj_name&gt;_input_test**. It reads the binary data from standard input and
 prints to standard output detected messages and values of their fields in
 human-readable form. The [AFL](http://lcamtuf.coredump.cx/afl/) fuzzer can 
 be used to generate fuzzed input for the application.
