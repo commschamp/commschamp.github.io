@@ -1,5 +1,5 @@
 ---
-date: 2019-06-06
+date: 2019-06-06 00:00:00
 title: v2.0 of CommsDSL specification is released.
 categories:
   - news
