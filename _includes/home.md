@@ -33,8 +33,9 @@ being transferred (data units, scaling factor, special values, etc...)
 and how the other end is expected 
 to behave on certain values (what values are considered to be valid and how to
 behave on reception of invalid values). It requires having some extra meta-information
-attached to described data structures, which needs to propagate and be accessible
-in the generated code. The existing tools either don't have means
+attached to described data structures, which is not sent over I/O link, but 
+still needs to be accessible in the generated code. 
+The existing tools either don't have means
 to specify such meta-information (other than in comments), or don't know what to
 do with it when provided. As the result the developer still has to write a 
 significant amount of boilerplate code in order to integrate the generated 
