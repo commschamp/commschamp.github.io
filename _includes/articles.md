@@ -3,6 +3,9 @@
 - [Getting Started]({{ site.baseurl }}{% post_url 2018-12-21-getting-started %})
 - [(Fuzz) Testing of Generated Protocol Code]({{ site.baseurl }}{% post_url 2019-04-24-fuzz-testing %})
 
+### Intermediate
+- [Heterogeneous Lists]({{ site.baseurl }}{% post_url 2019-06-08-heterogeneous-lists %})
+
 ### Advanced
 - [Advanced Guide to Message Dispatching]({{ site.baseurl }}{% post_url 2019-02-27-message-dispatch %})
 - [Better Custom Handling of Message ID]({{ site.baseurl }}{% post_url 2019-03-16-better-id-handling %})
