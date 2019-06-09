@@ -447,4 +447,6 @@ prop3VariantField.field_val().value() = "hello";
 ...
 msg.doRefresh(); // Bring all fields into a consistent state in one go
 ```
-
+The [schema](https://github.com/arobenko/cc.demo1.commsdsl/blob/master/dsl/schema.xml) of
+the [cc.demo1.commsdsl](https://github.com/arobenko/cc.demo1.commsdsl) example project
+can be used for additional reference.
