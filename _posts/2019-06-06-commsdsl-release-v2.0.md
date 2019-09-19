@@ -1,6 +1,6 @@
 ---
 date: 2019-06-06 00:00:01
-title: New (v2.0) release of commsdsl.
+title: New (v2.0) release of commsdsl
 categories:
   - news
 ---

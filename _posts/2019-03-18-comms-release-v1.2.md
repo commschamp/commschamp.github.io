@@ -1,6 +1,6 @@
 ---
 date: 2019-03-18
-title: v1.2 of COMMS Library is released.
+title: v1.2 of COMMS Library is released
 categories:
   - news
 ---

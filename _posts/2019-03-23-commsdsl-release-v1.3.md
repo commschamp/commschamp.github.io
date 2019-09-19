@@ -1,6 +1,6 @@
 ---
 date: 2019-03-23
-title: New (v1.3) release of commsdsl.
+title: New (v1.3) release of commsdsl
 categories:
   - news
 ---

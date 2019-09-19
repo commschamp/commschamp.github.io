@@ -1,6 +1,6 @@
 ---
 date: 2019-07-24 
-title: New (v2.1) release of commsdsl.
+title: New (v2.1) release of commsdsl
 categories:
   - news
 ---

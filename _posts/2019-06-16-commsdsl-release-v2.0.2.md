@@ -1,6 +1,6 @@
 ---
 date: 2019-06-16 
-title: New correction (v2.0.2) release of commsdsl.
+title: New correction (v2.0.2) release of commsdsl
 categories:
   - news
 ---
