@@ -1,6 +1,6 @@
 ---
 date: 2020-01-08 00:00:01 
-title: New (v3.2) release of commsdsl
+title: New (v3.3) release of commsdsl
 categories:
   - news
 ---
