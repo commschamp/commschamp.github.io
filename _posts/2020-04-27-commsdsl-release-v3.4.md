@@ -1,9 +1,9 @@
 ---
-date: 2020-03-01
-title: New (v3.3.3) release of commsdsl
+date: 2020-04-27 00:00:01 
+title: New (v3.4) release of commsdsl
 categories:
   - news
 ---
-See the [release notes](https://github.com/arobenko/commsdsl/releases/tag/v3.3.3).
+See the [release notes](https://github.com/arobenko/commsdsl/releases/tag/v3.4).
 
 
