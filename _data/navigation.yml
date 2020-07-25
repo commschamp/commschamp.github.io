@@ -6,10 +6,6 @@
   link: /blog/
   new_window: false
   highlight: false
-- name: Articles
-  link: /articles/
-  new_window: false
-  highlight: false
 - name: Examples
   link: /examples/
   new_window: false
