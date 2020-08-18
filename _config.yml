@@ -2,7 +2,7 @@
 # Site
 
 title: Implement Binary Communication Protocols in C++(11)
-url: "https://arobenko.github.io"
+url: "https://commschamp.github.io"
 baseurl:
 google_analytics_key: UA-131276295-1
 google_maps_javascript_api_key:
@@ -19,10 +19,9 @@ author:
 social:
   name: Alex Robenko
   links:
-    - https://arobenko.github.io/cc
+    - https://commschamp.github.io
     - https://github.com/arobenko
     - https://www.linkedin.com/in/arobenko/
-    - https://legacy.gitbook.com/@arobenko
 
 # -----
 # Build
