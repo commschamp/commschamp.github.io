@@ -1,5 +1,5 @@
 ---
-date: 2020-08-22
+date: 2020-08-22 00:00:00
 title: v3.0.1 of COMMS Library is released
 categories:
   - news
