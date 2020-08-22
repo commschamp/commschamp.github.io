@@ -6,7 +6,7 @@ categories:
 ---
 
 This tutorial describes how to define and use heterogeneous lists in
-[CommsChampion Ecosystem](https://arobenko.github.io/cc).
+[CommsChampion Ecosystem](https://commschamp.github.io).
 
 ----
 
@@ -89,7 +89,7 @@ public:
 };
 ```
 The **COMMS_VARIANT_MEMBERS_ACCESS()** macro provided by the 
-[COMMS library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS library](https://github.com/commschamp/comms_champion#comms-library)
 generates the following member type(s) and functions.
 ```cpp
 class Property : public comms::field::Variant<...>
@@ -196,7 +196,7 @@ public:
 };
 ```
 The **COMMS_FIELD_MEMBERS_ACCESS()** macro provided by the 
-[COMMS library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS library](https://github.com/commschamp/comms_champion#comms-library)
 generates the following member type(s) and functions.
 ```cpp
 class Prop1 : public 
@@ -293,7 +293,7 @@ void handleProperty(const Property& p)
 ```
 However, such approach may require a significant amount of boilerplate code 
 with manual (error-prone) "casting" to appropriate field type. 
-The [COMMS library](https://github.com/arobenko/comms_champion#comms-library) 
+The [COMMS library](https://github.com/commschamp/comms_champion#comms-library) 
 provides a built-in way to perform relatively efficient (**O(log(n)**) way of 
 dispatching the actual field to its appropriate handling function by using
 **comms::field::Variant::currentFieldExec()** member function. It expects to 
@@ -338,7 +338,7 @@ receiving unknown (to earlier versions of the protocol) properties and
 skipping over them.
 
 Such triplets are properly supported in **v2** of 
-[CommsDSL](https://github.com/arobenko/CommsDSL-Specification).
+[CommsDSL](https://github.com/commschamp/CommsDSL-Specification).
  The **key-value** definition above may be slightly altered to support such properties: 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -384,7 +384,7 @@ allows correct operation with unknown properties (which may be introduced
 in the future versions of the protocol).
 
 Such definition allows generation of correct code with correct handling of 
-the remaining length done by the [COMMS library](https://github.com/arobenko/comms_champion#comms-library)
+the remaining length done by the [COMMS library](https://github.com/commschamp/comms_champion#comms-library)
 itself.
 
 Also note, that the **Length** field specifies the **remaining length**
@@ -447,6 +447,6 @@ prop3VariantField.field_val().value() = "hello";
 ...
 msg.doRefresh(); // Bring all fields into a consistent state in one go
 ```
-The [schema](https://github.com/arobenko/cc.demo1.commsdsl/blob/master/dsl/schema.xml) of
-the [cc.demo1.commsdsl](https://github.com/arobenko/cc.demo1.commsdsl) example project
+The [schema](https://github.com/commschamp/cc.demo1.commsdsl/blob/master/dsl/schema.xml) of
+the [cc.demo1.commsdsl](https://github.com/commschamp/cc.demo1.commsdsl) example project
 can be used for additional reference.

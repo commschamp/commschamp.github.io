@@ -16,7 +16,7 @@ demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols). Please re
 **DSL** schema definition as well as generated code. 
 
 **NOTE**, that the generated code is actually a **CMake** project. Please
-read the [Generated CMake Project Walkthrough](https://github.com/arobenko/commsdsl/wiki/Generated-CMake-Project-Walkthrough)
+read the [Generated CMake Project Walkthrough](https://github.com/commschamp/commsdsl/wiki/Generated-CMake-Project-Walkthrough)
 wiki page to understand what is being generated. Also note that the
 generated protocol definition code is quite self-explanatory and how easy it is 
 to read it. 
@@ -24,9 +24,9 @@ to read it.
 It is recommended to try and build the projects of the
 [synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) while
 enabling build of protocol plugin for 
-[CommsChampion Tools](https://github.com/arobenko/comms_champion#commschampion-tools)
+[CommsChampion Tools](https://github.com/commschamp/comms_champion#commschampion-tools)
 and follow instructions on 
-[How to Use CommsChampion Tools](https://github.com/arobenko/comms_champion/wiki/How-to-Use-CommsChampion-Tools)
+[How to Use CommsChampion Tools](https://github.com/commschamp/comms_champion/wiki/How-to-Use-CommsChampion-Tools)
 wiki page in order to get to know the environment for protocol visualization,
 debugging and analysis.
 
@@ -34,9 +34,9 @@ debugging and analysis.
 
 The second stage is to learn how to use the generated code in some custom
 application. Please download the doxygen generated documentation of the
-[COMMS library](https://github.com/arobenko/comms_champion#comms-library) (named
+[COMMS library](https://github.com/commschamp/comms_champion#comms-library) (named
 **doc_comms_vX.zip**) from
-the latest [release artifacts](https://github.com/arobenko/comms_champion/releases) 
+the latest [release artifacts](https://github.com/commschamp/comms_champion/releases) 
 and read **How to Use Defined Custom Protocol** tutorial page. It is also 
 recommended to analyze the example client / server applications of the
 [synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) and 
@@ -48,27 +48,27 @@ projects themselves has their own doxygen generated documentation in their
 ----
 
 The third stage is to understand how to define new custom binary protocol. 
-Please download and read the [CommsDSL](https://github.com/arobenko/CommsDSL-Specification/releases) 
+Please download and read the [CommsDSL](https://github.com/commschamp/CommsDSL-Specification/releases) 
 specification first (read online 
 [here](https://legacy.gitbook.com/book/arobenko/commsdsl-specification/details)).
 It is recommended to use existing projects of 
 [synthetic demo protocols]({{ site.baseurl }}/examples#synthetic-demo-protocols) as the basis
 and introduce new fields / messages to their DSL shema(s). Please observe 
 the generated code and/or review the changes in **cc_view** application
-from [CommsChampion Tools](https://github.com/arobenko/comms_champion#commschampion-tools).
+from [CommsChampion Tools](https://github.com/commschamp/comms_champion#commschampion-tools).
 
-Read the [commsdsl2comms Manual](https://github.com/arobenko/commsdsl/wiki/commsdsl2comms-Manual)
+Read the [commsdsl2comms Manual](https://github.com/commschamp/commsdsl/wiki/commsdsl2comms-Manual)
 to understand how to use **commsdsl2comms** code generator.
 
-In case syntax of [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) 
+In case syntax of [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) 
 has some limitations that don't allow generation of the correct code and
 injection of some custom code snippets are required, please 
 do the following steps as well:
-- Read the [commsdsl2comms Manual](https://github.com/arobenko/commsdsl/wiki/commsdsl2comms-Manual).
+- Read the [commsdsl2comms Manual](https://github.com/commschamp/commsdsl/wiki/commsdsl2comms-Manual).
 It explains what files need to be created and where to put them in order to
 inject custom code into the generated one.
 - Read **How to Define New Custom Protocol** tutorial page from the doxygen generated
-documentation of the [COMMS library](https://github.com/arobenko/comms_champion#comms-library).
+documentation of the [COMMS library](https://github.com/commschamp/comms_champion#comms-library).
 It explains what custom code is expected to look like.
 - Review custom code snippets from available 
 [real life open protocols]({{ site.baseurl }}/examples#real-life-open-protocols).
@@ -77,7 +77,7 @@ It explains what custom code is expected to look like.
 
 As the last stage it is recommended to fuzz test your protocol definition. 
 Please read the 
-[Testing Generated Protocol Code](https://github.com/arobenko/commsdsl/wiki/Testing-Generated-Protocol-Code) 
+[Testing Generated Protocol Code](https://github.com/commschamp/commsdsl/wiki/Testing-Generated-Protocol-Code) 
 wiki page and use [AFL](http://lcamtuf.coredump.cx/afl/) to do so.
 
 ----

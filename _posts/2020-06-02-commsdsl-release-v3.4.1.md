@@ -4,6 +4,6 @@ title: New (v3.4.1) release of commsdsl
 categories:
   - news
 ---
-See the [release notes](https://github.com/arobenko/commsdsl/releases/tag/v3.4.1).
+See the [release notes](https://github.com/commschamp/commsdsl/releases/tag/v3.4.1).
 
 

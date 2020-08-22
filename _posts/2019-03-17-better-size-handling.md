@@ -6,26 +6,26 @@ categories:
 ---
 
 This article describes new way (introduced in **v1.2** of the
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 to implement custom handling of message size information in transport framing.
 It contains the same information as the
 "Defining Custom Message Size Protocol Stack Layer" page from the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 tutorial.
 
 ----
 
-The [COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+The [COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 provides default **comms::protocol::MsgSizeLayer** protocol 
 stack layer to handle remaining length information in the protocol framing. 
 However, it may be insufficient (or incorrect) for some particular use cases, such as
 using **bitfield** field to store both remaining size (length) and some extra flags. 
 The **Protocol Stack Definition Tutorial** page of the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 documentation explains how to define new (custom)
 protocol layer. 
 
-However, since **v1.2** [COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+However, since **v1.2** [COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 provides an ability to extend the existing
 definition of **comms::protocol::MsgSizeLayer** and customize some bits
 and pieces. Let's implement the mentioned example of sharing the same byte
@@ -40,7 +40,7 @@ object, precedes the **SIZE** one.
 
 First of all let's define the **Common Interface Class**, which
 holds the **flags** information as data member of every message object.
-In [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) the definition
+In [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) the definition
 may look like this:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -119,7 +119,7 @@ names: **bit0**, **bit1**, **bit2, and **bit3**).
 
 Now, let's define the **bitfield** field, that splits two bytes to
 store remaining length (in lower 12 bits) as well as extra flags (in upper 4 bits).
-The [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) definition is
+The [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) definition is
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <schema name="my_prot" endian="big">
@@ -246,7 +246,7 @@ The newly defined custom protocol stack layer can be used instead of
 **protocol stack** (framing) of the protocol.
 
 Just remember to still use **custom** layer when defining transport frame
-using [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) schema.
+using [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) schema.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <schema name="my_prot" endian="big">

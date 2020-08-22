@@ -6,17 +6,17 @@ categories:
 ---
 
 This article describes several new ways (introduced to **v1.1** of the
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library))
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library))
 to dispatch message object to its appropriate handling function.
 It contains the same information as the
 "Advanced Guide to Message Dispatching" page from the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 tutorial.
 
 ----
 
 # Existing Polymorphic Dispatch
-Since the early days of the [COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+Since the early days of the [COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 it supported dispatching via polymorphic **dispatch()** member function of
 the message object.
 ```
@@ -38,7 +38,7 @@ using MyMessage =
 ```
 
 # Additional Dispatch Methods for Message Object
-Version **v1.1** of the [COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+Version **v1.1** of the [COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 introduces several other ways to dispatch message object, which do not
 require having polymorphic **dispatch()** member function in message interface.
 
@@ -358,7 +358,7 @@ consider using **linear switch** dispatch. For all other cases its usage
 is not recommended.
 
 ## Default Way to Dispatch Message Object
-The [COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+The [COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 also provides a default way to dispatch message object
 without specifying type of the dispatch and allowing the library to choose
 the best one by using **comms::dispatchMsg()**.
@@ -374,7 +374,7 @@ MyHandler handler;
 
 comms::dispatchMsg<AllMessages>(id, *msg, handler);
 ```
-In such case the [COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+In such case the [COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 will check whether the condition of 
 **O(1) polymorphic** dispatch tables holds true (no more than 10% holes in
 the used IDs) and use **polymorphic** dispatch in this case. Otherwise
@@ -406,7 +406,7 @@ In some occasions there is a need to know the exact message type given the
 numeric ID without having any message object present for dispatching. The classic example
 would be the creation of message object itself given the ID (that's what
 **comms::MsgFactory** class does). To support such cases the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 provides the same 3 types of dispatching the given ID to its 
 appropriate type.
 - [Polymorphic](#polymorphic-dispatch-of-message-type)
@@ -577,7 +577,7 @@ dispatchMsgTypeLinearSwitch<AllMessages>(90, 2, handler); // returns false
 ```
 
 ## Default Way to Dispatch Message Type
-The [COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+The [COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 also provides a default way to dispatch message type
 without specifying type of the dispatch and allowing the library to choose
 the best one using **comms::dispatchMsgType()** funtion.
@@ -591,7 +591,7 @@ MyHandler handler;
 comms::dispatchMsgType<AllMessages>(id, handler);
 ```
 In such case the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 will check whether the condition of 
 **O(1) polymorphic** dispatch tables holds true (no more than 10% holes in
 the used IDs) and use **polymorphic** dispatch in this case. Otherwise

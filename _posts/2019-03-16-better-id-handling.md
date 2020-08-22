@@ -6,23 +6,23 @@ categories:
 ---
 
 This article describes new way (introduced in **v1.2** of the
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 to implement custom handling of message ID information in transport framing.
 It contains the same information as the
 "Defining Custom Message ID Protocol Stack Layer" page from the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 tutorial.
 
 ----
 
-The [COMMS Library](https://github.com/arobenko/comms_champion#comms-library)
+The [COMMS Library](https://github.com/commschamp/comms_champion#comms-library)
 provides default **comms::protocol::MsgIdLayer** protocol 
 stack layer to manage message ID information in the protocol framing. 
 However, it may be insufficient (or incorrect) for some particular use cases, such as
 using **bitfield** field to store both numeric message ID and some extra flags
 [MQTT](http://mqtt.org) protocol does). 
 The **Protocol Stack Definition Tutorial** page of the 
-[COMMS Library](https://github.com/arobenko/comms_champion#comms-library) 
+[COMMS Library](https://github.com/commschamp/comms_champion#comms-library) 
 documentation explains how to define new (custom)
 protocol layer. 
 
@@ -40,7 +40,7 @@ for numeric ID and some flags.
 
 First of all let's define the **Common Interface Class**, which
 holds the **flags** information as data member of every message object.
-In [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) the definition
+In [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) the definition
 may look like this:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -119,7 +119,7 @@ names: **bit0**, **bit1**, **bit2**, and **bit3**).
 
 Now, let's define the **bitfield** field, that splits one byte in half to
 store numeric message ID (in lower 4 bits) as well as extra flags (in upper 4 bits)
-The [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) definition is
+The [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) definition is
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <schema name="my_prot" endian="big">
@@ -254,7 +254,7 @@ The newly defined custom protocol stack layer can be used instead of
 **protocol stack** (framing) of the protocol.
 
 Just remember to still use **custom** layer when defining transport frame
-using [CommsDSL](https://github.com/arobenko/CommsDSL-Specification) schema.
+using [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) schema.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <schema name="my_prot" endian="big">

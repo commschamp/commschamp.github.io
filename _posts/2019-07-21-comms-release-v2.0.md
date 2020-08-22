@@ -4,5 +4,5 @@ title: v2.0 of COMMS Library is released
 categories:
   - news
 ---
-See the [release notes](https://github.com/arobenko/comms_champion/releases/tag/v2.0).
+See the [release notes](https://github.com/commschamp/comms_champion/releases/tag/v2.0).
 
