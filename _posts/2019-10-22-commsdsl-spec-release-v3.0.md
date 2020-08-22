@@ -1,6 +1,6 @@
 ---
 date: 2019-10-22 00:00:00 
-title: New release (v3.0) ov CommsDSL Specification
+title: New release (v3.0) of CommsDSL Specification
 categories:
   - news
 ---

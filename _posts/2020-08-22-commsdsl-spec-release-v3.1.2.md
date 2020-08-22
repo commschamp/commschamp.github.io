@@ -1,6 +1,6 @@
 ---
 date: 2020-08-22 00:00:01 
-title: New release (v3.1.2) ov CommsDSL Specification
+title: New release (v3.1.2) of CommsDSL Specification
 categories:
   - news
 ---
