@@ -14,6 +14,10 @@
   link: /licenses/
   new_window: false
   highlight: false
+- name: Versions
+  link: /versions/
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false
