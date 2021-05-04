@@ -211,7 +211,7 @@ to keep yourself updated with latest news and articles.
 # New Features Development
 The **CommsChampion** ecosystem is already quite feature rich and satisfies the needs of most available
 protocols. It's not in a constant active development. Introduction of new features now is on-request basis.
-If you think that the latest versions of the available components don't satisfy needs of your use case,
+If you think that the latest [versions]({{ site.baseurl }}/versions) of the available components don't satisfy needs of your use case,
 please [get in touch]({{ site.baseurl }}/contact/) to get an estimation of when the new functionality is going to be 
 introduced.
 
