@@ -1,6 +1,6 @@
 ---
 date: 2021-08-15 00:00:01 
-title: The tutorial project add howto9
+title: The tutorial project adds howto9
 categories:
   - news
 ---
