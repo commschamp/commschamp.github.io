@@ -28,6 +28,8 @@ social:
 
 timezone: Etc/UTC
 
+future: true
+
 collections:
   staff_members:
     _hide_content: true
