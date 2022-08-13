@@ -6,8 +6,8 @@
     social_icon: RSS
     new_window: false
 - links:    
-  - name: Examples
-    link: /examples/
+  - name: Projects
+    link: /projects/
   - name: Licenses
     link: /licenses/ 
 - links:

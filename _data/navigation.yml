@@ -6,8 +6,8 @@
   link: /blog/
   new_window: false
   highlight: false
-- name: Examples
-  link: /examples/
+- name: Projects
+  link: /projects/
   new_window: false
   highlight: false
 - name: Licenses

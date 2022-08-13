@@ -190,7 +190,7 @@ The latter contains two major tutorial pages:
   from scratch and can be very useful when it comes to implementing custom code when the generated
   code is incomplete and/or incorrect.
   
-The third stage is to review the available [examples]({{ site.baseurl }}/examples) and use 
+The third stage is to review the available [protocol definitions]({{ site.baseurl }}/projects) and use
 them as reference and/or as a testing ground.
 
 Other useful resources are:
