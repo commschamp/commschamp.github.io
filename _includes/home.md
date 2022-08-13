@@ -3,6 +3,10 @@
 of binary communication protocols using C++11 programming language, 
 with main focus on **embedded systems** (including bare-metal ones). 
 
+Although the primary purpose of the **CommsChampion Ecosystem** is to help with the
+implementation of the binary communication protocols, it can easily be used to encode /
+decode any binary data as well.
+
 Interested? Then buckle up and read on.
 
 # Motivation
