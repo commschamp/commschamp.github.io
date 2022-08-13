@@ -13,3 +13,5 @@ group :jekyll_plugins do
   gem 'jekyll-relative-links'
 
 end
+
+gem "webrick", "~> 1.7"
