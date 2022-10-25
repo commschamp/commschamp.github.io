@@ -8,7 +8,7 @@ implementation of the binary communication protocols, it can easily be used to e
 decode any binary data as well.
 
 Both **C++** and **embedded systems** are first class citizens of the **CommsChampion Ecosystem**.
-However, other high level languages are also supported via generation of the
+However, other high level programming languages are also supported via generation of the
 bindings (glue code) using [SWIG](https://www.swig.org/).
 
 Interested? Then buckle up and read on.
