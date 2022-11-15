@@ -231,7 +231,7 @@ introduced.
 # Contribution
 For any open and freely available standard protocol you implement using the **CommsChampion Ecosystem**
 please consider to open source your definition and implement it as a separate project, use
-any of the available [examples]({{ site.baseurl }}/examples) as a template. Please also 
+any of the already defined [protocols]({{ site.baseurl }}/projects) as a template. Please also
 consider having it hosted as a project inside 
 [CommsChampion Ecosystem github organization](https://github.com/commschamp). You'll be assigned as 
 an owner and active maintainer of the project.

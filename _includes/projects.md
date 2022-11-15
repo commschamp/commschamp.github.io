@@ -40,3 +40,14 @@
 |[cc.x509.commsdsl](https://github.com/commschamp/cc.x509.commsdsl)|[cc.x509.generated](https://github.com/commschamp/cc.x509.generated)| Provides definition of the [X.509](https://datatracker.ietf.org/doc/html/rfc5280) public key infrastructure certificate.|
 
 .
+
+# Support for Package Managers and Other Build Systems
+
+| Repository | Details |
+|--------------------------------------------|
+|[meta-commschamp](https://github.com/commschamp/meta-commschamp)|CommsChampion Ecosystem recipes provided as a [layer](https://docs.yoctoproject.org/bsp-guide/bsp.html) of the [yocto project](https://www.yoctoproject.org/).|
+|[cc.buildroot](https://github.com/commschamp/cc.buildroot)|CommsChampion Ecosystem packages as an [external customization](https://buildroot.org/downloads/manual/manual.html#outside-br-custom) of the main [buildroot](https://buildroot.org/) build tree.|
+|[cc.vcpkg](https://github.com/commschamp/cc.vcpkg)| CommsChampion Ecosystem packages as a [ports overlay](https://github.com/microsoft/vcpkg/blob/master/docs/specifications/ports-overlay.md) directory of the [vcpkg](https://github.com/microsoft/vcpkg) package manager.|
+|[cc.conan](https://github.com/commschamp/cc.conan)| CommsChampion Ecosystem packages packaging recipes for the [Conan](https://conan.io/) package manager.|
+
+.
