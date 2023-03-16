@@ -27,7 +27,7 @@
 |--------------------------------------------|
 |[cc.mqtt311.commsdsl](https://github.com/commschamp/cc.mqtt311.commsdsl)|[cc.mqtt311.generated](https://github.com/commschamp/cc.mqtt311.generated)|Defines [MQTT v3.1.1](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.pdf) protocol, where message ID shares the same byte with extra flags, that may define existence of the fields in message payload as well as influence how message needs to be processed.|
 |[cc.mqtt5.commsdsl](https://github.com/commschamp/cc.mqtt5.commsdsl)|[cc.mqtt5.generated](https://github.com/commschamp/cc.mqtt5.generated)|Defined [MQTT v5.0](https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html) protocol. Similar to **v3.1.1**, but also adds a heterogeneous list of various properties.|
-|[cc.mqttsn.commsdsl](https://github.com/commschamp/cc.mqttsn.commsdsl)|[cc.mqttsn.generated](https://github.com/commschamp/cc.mqttsn.generated)|Defines [MQTT-SN](http://mqtt.org/2013/12/mqtt-for-sensor-networks-mqtt-sn) protocol, where field of remaining length of the message can have either 1 or 3 bytes length, depending on the value it contains.|
+|[cc.mqttsn.commsdsl](https://github.com/commschamp/cc.mqttsn.commsdsl)|[cc.mqttsn.generated](https://github.com/commschamp/cc.mqttsn.generated)|Defines [MQTT-SN](https://www.oasis-open.org/committees/download.php/66091/MQTT-SN_spec_v1.2.pdf) protocol, where field of remaining length of the message can have either 1 or 3 bytes length, depending on the value it contains.|
 |[cc.ublox.commsdsl](https://github.com/commschamp/cc.ublox.commsdsl)|[cc.ublox.generated](https://github.com/commschamp/cc.ublox.generated)|Defines **UBX** protocol used by various [u-blox GPS receivers](https://www.u-blox.com/en/position-time). The protocol itself is quite complex with hundreds of messages. It uses custom checksum calculation algorithms and injects multiple code snippets to fix incorrect or incomplete functionality available by default.|
 
 .
@@ -41,10 +41,18 @@
 
 .
 
+# Protocol Handling Libraries
+
+| Repository | Details |
+|----------------------|
+|[cc.mqttsn.libs](https://github.com/commschamp/cc.mqttsn.libs)|[MQTT-SN](https://www.oasis-open.org/committees/download.php/66091/MQTT-SN_spec_v1.2.pdf) client and gateway libraries.|
+
+.
+
 # Support for Package Managers and Other Build Systems
 
 | Repository | Details |
-|--------------------------------------------|
+|----------------------|
 |[meta-commschamp](https://github.com/commschamp/meta-commschamp)|CommsChampion Ecosystem recipes provided as a [layer](https://docs.yoctoproject.org/bsp-guide/bsp.html) of the [yocto project](https://www.yoctoproject.org/).|
 |[cc.buildroot](https://github.com/commschamp/cc.buildroot)|CommsChampion Ecosystem packages as an [external customization](https://buildroot.org/downloads/manual/manual.html#outside-br-custom) of the main [buildroot](https://buildroot.org/) build tree.|
 |[cc.vcpkg](https://github.com/commschamp/cc.vcpkg)| CommsChampion Ecosystem packages as a [ports overlay](https://github.com/microsoft/vcpkg/blob/master/docs/specifications/ports-overlay.md) directory of the [vcpkg](https://github.com/microsoft/vcpkg) package manager.|
