@@ -2,7 +2,7 @@
 
 | Repository | Details |
 |----------------------|
-|[COMMS Library](https://github.com/commschamp/commscomms)|The core component of the ecosystem, allows protocol definition to be simple, declarative statements.|
+|[COMMS Library](https://github.com/commschamp/comms)|The core component of the ecosystem, allows protocol definition to be simple, declarative statements.|
 |[CommsChampion Tools](https://github.com/commschamp/cc_tools_qt)| Tools to visualize protocol definition and debug exchange of the protocol messages.|
 |[CommsDSL Specification](https://github.com/commschamp/CommsDSL-Specification)| The [CommsDSL](https://commschamp.github.io/commsdsl_spec) specification.|
 |[Code Generators](https://github.com/commschamp/commsdsl)| [CommsDSL](https://commschamp.github.io/commsdsl_spec) schemas parsing and code generation tools.|
