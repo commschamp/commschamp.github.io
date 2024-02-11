@@ -189,17 +189,22 @@ some I/O link.
 - Support of some other high level programming languages via bindings (glue code).
 
 # Extra Libraries
+
 The **CommsChampion Ecosystem** also provides several higher level libraries for managing
 some widely used open binary communication protocols. These libraries abstract away the protocol messages and provide
 a convenient and easy to use API. All of the provided libraries strive to adhere to the
 following principles:
 
 - Allow the end application to manage the I/O link connection and timers. It allows the protocol handling library to be generic and platform independent.
+
 - The end application shall have a full control over the exchanged raw data. It allows the application to apply extra data manipulation, such as
   encryption, extra message framing when using non-reliable I/O link, and/or implement custom solutions extending the standard protocol functionality.
+
 - Have simple, asynchronous, and non-blocking interface.
+
 - Provide an ability to customize the data structures and/or available functionality via compile time configuration and make it suitable for
   embedded systems (including bare-metal ones without heap).
+
 - Allow easy implementation of the client / server applications using any favourite event loop framework (such as Qt or Boost.Asio) or RTOS.
 
 The list of currently available protocol handling libraries are listed in the [Projects]({{ site.baseurl }}/projects) page.
