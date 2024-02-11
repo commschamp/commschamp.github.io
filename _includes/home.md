@@ -98,7 +98,7 @@ developed using the [COMMS library](https://github.com/commschamp/comms).
 All the applications are plug-in based, i.e. plug-ins are used to define 
 I/O socket, data filters, and the custom protocol itself. Such architecture allows
 easy assemble of various protocol communication stacks. The tools are intended
-to be used on **development PC**, and use [Qt5](http://www.qt.io/) framework 
+to be used on **development PC**, and use [Qt](http://www.qt.io/) framework
 for GUI interfaces as well as loading and managing plug-ins.
 
 ![tools image]({{ site.baseurl }}/image/cc_tools_qt.png){:style="width:650px"}
