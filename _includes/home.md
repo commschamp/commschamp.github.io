@@ -195,6 +195,7 @@ some widely used open binary communication protocols. These libraries abstract a
 a convenient and easy to use API. All of the provided libraries strive to adhere to the
 following principles:
 
+
 - Allow the end application to manage the I/O link connection and timers. It allows the protocol handling library to be generic and platform independent.
 
 - The end application shall have a full control over the exchanged raw data. It allows the application to apply extra data manipulation, such as
@@ -207,7 +208,7 @@ following principles:
 
 - Allow easy implementation of the client / server applications using any favourite event loop framework (such as Qt or Boost.Asio) or RTOS.
 
-The list of currently available protocol handling libraries are listed in the [Projects]({{ site.baseurl }}/projects) page.
+The list of currently available protocol handling libraries can be found in the [Projects]({{ site.baseurl }}/projects) page.
 
 # Where to Start
 At first, it is highly recommended to read through the 
