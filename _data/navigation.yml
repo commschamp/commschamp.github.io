@@ -6,6 +6,10 @@
   link: /blog/
   new_window: false
   highlight: false
+- name: Docs
+  link: /docs/
+  new_window: false
+  highlight: false
 - name: Projects
   link: /projects/
   new_window: false

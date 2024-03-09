@@ -4,8 +4,9 @@
   - name: RSS
     link: /feed.xml
     social_icon: RSS
-    new_window: false
 - links:    
+  - name: Docs
+    link: /docs/
   - name: Projects
     link: /projects/
   - name: Licenses
