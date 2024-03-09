@@ -232,10 +232,10 @@ expected order of things to learn and practice.
 Some aspects of the **CommsChampion Ecosystem** may be complex, overwhelming and/or
 not explained properly in the available documentation. In case of difficulties it is recommended to fork
 the [tutorial](https://github.com/commschamp/cc_tutorial) project on github and use
-it as template and create special "tutorial" or "howto" folder (say howto100).
+it as template to create special "tutorial" or "howto" folder (say howto100).
 In that extra folder try to define minimal portion of the protocol that reproduces
 the experienced problem. After that please send me an [e-mail]({{ site.baseurl }}/contact/)
-explaining the problem with the link to the forked project. I'll do my best to
+containing the link to the forked project and the relevant details. I'll do my best to
 review it and suggest a solution with the pull-request and/or explaining what needs
 to change in comments.
 
