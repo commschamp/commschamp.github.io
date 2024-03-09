@@ -224,44 +224,31 @@ in terms of [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) sch
 using the provided code generators, the [CommsChampion Tools](https://github.com/commschamp/cc_tools_qt)
 can become robust and valuable internal instrument of the defined protocol debugging.
 
-# Where to Start
-At first, it is highly recommended to read through the 
-available [tutorials](https://github.com/commschamp/cc_tutorial) which cover the most common 
-aspects of the [CommsDSL](https://github.com/commschamp/CommsDSL-Specification), code generation,
-[COMMS library](https://github.com/commschamp/comms) and their 
-integration.
+# Mastering the CommsChampion Ecosystem
+Please refer to the [Docs]({{ site.baseurl }}/docs) page for the available resources and
+expected order of things to learn and practice.
 
-As the second stage in the learning process it is recommended to read through the 
-[CommsDSL specification](https://commschamp.github.io/commsdsl_spec/) and 
-[COMMS library documentation](https://commschamp.github.io/comms_doc).
-The latter contains two major tutorial pages: 
-- [How to Use Defined Custom Protocol](https://commschamp.github.io/comms_doc/page_use_prot.html) - 
-  it explains how to customize the protocol definition for the end application needs and 
-  how to integrate the protocol definition into the 
-  application business logic.
-- [How to Define New Custom Protocol](https://commschamp.github.io/comms_doc/page_define_prot.html) - 
-  it explains how to define custom communication protocol
-  from scratch and can be very useful when it comes to implementing custom code when the generated
-  code is incomplete and/or incorrect.
-  
-The third stage is to review the available [protocol definitions]({{ site.baseurl }}/projects) and use
-them as reference and/or as a testing ground.
+# Asking for Help
+Some aspects of the **CommsChampion Ecosystem** may be complex, overwhelming and/or
+not explained properly in the available documentation. In case of difficulties it is recommended to fork
+the [tutorial](https://github.com/commschamp/cc_tutorial) project on github and use
+it as template and create special "tutorial" or "howto" folder (say howto100).
+In that extra folder try to define minimal portion of the protocol that reproduces
+the experienced problem. After that please send me an [e-mail]({{ site.baseurl }}/contact/)
+explaining the problem with the link to the forked project. I'll do my best to
+review it and suggest a solution with the pull-request and/or explaining what needs
+to change in comments.
 
-Other useful resources are:
-- [commsdsl Documentation](https://github.com/commschamp/commsdsl/tree/master/doc) - multiple
-  documentation pages for the available code generators and instructions how to use the
-  generated code.
+# Other Communication
+For any technical questions or feature requests that may be relevant to other developers,
+please consider opening an issue on the relevant project's repository at [github](https://github.com/commschamp/).
 
-# Communication
-For any personal issue, question or request please send an 
+For any other issue, question or request please send a direct
 [e-mail]({{ site.baseurl }}/contact/).
-
-For any technical question that may be of interest to any other developer as
-well please consider opening an issue on relevant project on [github](https://github.com/commschamp/).
 
 It is also recommended to grab [RSS feed]({{ site.baseurl }}/feed.xml) of the 
 [blog]({{ site.baseurl }}/blog/) 
-to keep yourself updated with latest news and articles.
+to keep yourself updated with latest news.
 
 # Contribution
 For any open and freely available standard protocol you implement using the **CommsChampion Ecosystem**
