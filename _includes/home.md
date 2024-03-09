@@ -199,7 +199,7 @@ provided libraries strive to adhere to the following principles:
 - **Offer the ability to customize the data structures and/or available functionality via compile-time configuration:**
   This makes it suitable for embedded systems (including bare-metal ones without heap).
 
-- **Allow easy implementation of client/server applications using any favorite event loop framework (such as Qt or Boost.Asio) or RTOS.**
+- **Allow easy implementation of client/server applications**: Use any favorite event loop framework (such as Qt or Boost.Asio) or RTOS.
 
 The list of currently available protocol handling libraries can be found on the [Projects]({{ site.baseurl }}/projects) page.
 
@@ -211,16 +211,18 @@ They offer a wide range of functionalities, including:
 
 - Sending and receiving messages to/from the tested system using various I/O links
   and additional transport protocols.
+
 - Visualizing protocol messages.
+
 - Decoding protocol messages from external raw data.
+
 - Observing the exchange of protocol messages between nodes using "proxy" mode.
 
-Even if the protocol itself is implemented without the usage of the
-**CommsChampion Ecosystem**, with relatively little effort in defining the protocol
-using [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) schema and then
-using the provided code generators, [CommsChampion Tools](https://github.com/commschamp/cc_tools_qt)
-offer robust protocol debugging and analysis capabilities.
-
+Even if the **CommsChampion Ecosystem** is not used to implement the required protocol
+messages, with relatively little effort of defining the protocol
+in terms of [CommsDSL](https://github.com/commschamp/CommsDSL-Specification) schema and then
+using the provided code generators, the [CommsChampion Tools](https://github.com/commschamp/cc_tools_qt)
+can become robust and valuable internal instrument of the defined protocol debugging.
 
 # Where to Start
 At first, it is highly recommended to read through the 
