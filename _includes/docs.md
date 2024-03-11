@@ -49,6 +49,35 @@
 5. Read the relevant [doxygen documentation](https://commschamp.github.io/cc_tools_qt_doc/) to
    understand how to develop extra plugins.
 
+
+# Mastering Other Programming Languages Support
+
+1. Learn and understand what [SWIG](https://www.swig.org/) is.
+
+2. Read the [Other Languages Support](https://github.com/commschamp/commsdsl/blob/master/doc/OtherLanguagesSupport.md)
+   documentation page.
+
+3. Read the [Manual of commsdsl2swig](https://github.com/commschamp/commsdsl/blob/master/doc/Manual_commsdsl2swig.md).
+
+
+# Mastering WebAssembly Support
+
+1. Learn and understand what [emscripten](https://emscripten.org/) toolchain is.
+
+2. Read the [WebAssembly Support](https://github.com/commschamp/commsdsl/blob/master/doc/WebAssemblySupport.md)
+   documentation page.
+
+3. Read the [Manual of commsdsl2emscripten](https://github.com/commschamp/commsdsl/blob/master/doc/Manual_commsdsl2emscripten.md).
+
+# Mastering Fuzz Testing of the Protocol Definition Code
+
+1. Learn fuzz testing tools like [AFL](https://lcamtuf.coredump.cx/afl/) or [AFL++](https://github.com/AFLplusplus/AFLplusplus)
+
+2. Read the [Testing Generated Protocol Code](https://github.com/commschamp/commsdsl/blob/master/doc/TestingGeneratedProtocolCode.md)
+   documentation page.
+
+3. Read the [Manual of commsdsl2test](https://github.com/commschamp/commsdsl/blob/master/doc/Manual_commsdsl2test.md).
+
 # Online Specs and API References
 
 - [CommsDSL Specification](https://commschamp.github.io/commsdsl_spec)
