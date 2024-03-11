@@ -83,20 +83,20 @@
 - [CommsDSL Specification](https://commschamp.github.io/commsdsl_spec)
 
 - [COMMS Library](https://commschamp.github.io/comms_doc/) - Doxygen documentation
-  of the [comms]((https://github.com/commschamp/comms) project.
+  of the [comms](https://github.com/commschamp/comms) project.
 
 - [CommsChampion Tools](https://commschamp.github.io/cc_tools_qt_doc) - Doxygen documentation
-  of the [cc_tools_qt]((https://github.com/commschamp/cc_tools_qt) project.
+  of the [cc_tools_qt](https://github.com/commschamp/cc_tools_qt) project.
 
 - [MQTT v5 Client Library](https://commschamp.github.io/cc_mqtt5_client_doc) - Doxygen documentation
-  of the [cc.mqtt5.libs]((https://github.com/commschamp/cc.mqtt5.libs) project.
+  of the [cc.mqtt5.libs](https://github.com/commschamp/cc.mqtt5.libs) project.
 
 - [MQTT-SN Client Library](https://commschamp.github.io/cc_mqttsn_client_doc/) -
   Doxygen documentation of the client library from the
-  [cc.mqttsn.libs]((https://github.com/commschamp/cc.mqttsn.libs) project.
+  [cc.mqttsn.libs](https://github.com/commschamp/cc.mqttsn.libs) project.
 
 - [MQTT-SN Gateway Library](https://commschamp.github.io/cc_mqttsn_gateway_doc/) -
   Doxygen documentation of the gateway library from the
-  [cc.mqttsn.libs]((https://github.com/commschamp/cc.mqttsn.libs) project.
+  [cc.mqttsn.libs](https://github.com/commschamp/cc.mqttsn.libs) project.
 
 
