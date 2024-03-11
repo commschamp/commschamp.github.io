@@ -33,8 +33,30 @@
 
 # Mastering CommsChampion Tools
 
-Will be added soon
+1. Read through the [How to Use CommsChampion Tools](https://github.com/commschamp/cc_tools_qt/wiki/How-to-Use-CommsChampion-Tools)
+   wiki page to understand what they are and how to use them.
 
-# Online Manuals and References
+2. Read through the project's [README.md](https://github.com/commschamp/cc_tools_qt) and the
+   [build instructions](https://github.com/commschamp/cc_tools_qt?tab=readme-ov-file#how-to-build)
+   in particular.
 
-Will be added soon
+3. Read the [Visual Protocol Analysis](https://github.com/commschamp/commsdsl/blob/master/doc/VisualProtocolAnalysis.md)
+   documentation page to understand how to generate the code and build the
+   protocol plugin for the [CommsChampion Tools](https://github.com/commschamp/cc_tools_qt).
+
+4. Read the [Manual of commsdsl2tools_qt](https://github.com/commschamp/commsdsl/blob/master/doc/Manual_commsdsl2tools_qt.md).
+
+5. Read the relevant [doxygen documentation](https://commschamp.github.io/cc_tools_qt_doc/) to
+   understand how to develop extra plugins.
+
+# Online Specs and API References
+
+- [CommsDSL Specification](https://commschamp.github.io/commsdsl_spec)
+
+- [COMMS Library](https://commschamp.github.io/comms_doc/)
+
+- [CommsChampion Tools](https://commschamp.github.io/cc_tools_qt_doc)
+
+- [MQTT5 Client Library](https://commschamp.github.io/cc_mqtt5_client_doc)
+
+
