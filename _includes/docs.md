@@ -56,6 +56,9 @@
 7. Read the relevant [doxygen documentation](https://commschamp.github.io/cc_tools_qt_doc/) to
    understand how to develop extra plugins.
 
+8. For developing new plugins use the following code / projects for reference:
+   - [built-in plugins](https://github.com/commschamp/cc_tools_qt/tree/master/plugin)
+   - [cc.mqtt5_client_filter.cc_tools_plugin](https://github.com/commschamp/cc.mqtt5_client_filter.cc_tools_plugin) - "CC MQTT v5 Client Filter" plugin.
 
 # Mastering Other Programming Languages Support
 
