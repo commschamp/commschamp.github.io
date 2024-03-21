@@ -65,12 +65,13 @@
 
 .
 
-# Support for Package Managers and Other Build Systems
+# Package Managers and Build Systems
 
 | Repository | Details |
 |----------------------|
 |[meta-commschamp](https://github.com/commschamp/meta-commschamp)|CommsChampion Ecosystem recipes provided as a [layer](https://docs.yoctoproject.org/bsp-guide/bsp.html) of the [yocto project](https://www.yoctoproject.org/).|
 |[cc.buildroot](https://github.com/commschamp/cc.buildroot)|CommsChampion Ecosystem packages as an [external customization](https://buildroot.org/downloads/manual/manual.html#outside-br-custom) of the main [buildroot](https://buildroot.org/) build tree.|
 |[cc.vcpkg](https://github.com/commschamp/cc.vcpkg)| CommsChampion Ecosystem packages as a [ports overlay](https://github.com/microsoft/vcpkg/blob/master/docs/specifications/ports-overlay.md) directory of the [vcpkg](https://github.com/microsoft/vcpkg) package manager.|
+|[cc.cmake](https://github.com/commschamp/cc.cmake)| CommsChampion Ecosystem projects bundled into a single CMake one. Expected to be used in a signle [ExternalProject_Add()](https://cmake.org/cmake/help/latest/module/ExternalProject.html) invocation.|
 
 .
