@@ -46,7 +46,14 @@
 
 4. Read the [Manual of commsdsl2tools_qt](https://github.com/commschamp/commsdsl/blob/master/doc/Manual_commsdsl2tools_qt.md).
 
-5. Read the relevant [doxygen documentation](https://commschamp.github.io/cc_tools_qt_doc/) to
+5. Review how the [commsdsl2tools_qt is invoked](https://github.com/commschamp/cc.demo1.commsdsl/blob/master/CMakeLists.txt) in
+   the provided projects like [cc.demo1.commsdsl](https://github.com/commschamp/cc.demo1.commsdsl).
+
+6. Review the relevant [generated code](https://github.com/commschamp/cc.demo1_protocol.cc_tools_plugin) and
+   its [CMakeLists.txt](https://github.com/commschamp/cc.demo1_protocol.cc_tools_plugin/blob/master/CMakeLists.txt) in
+   particular.
+
+7. Read the relevant [doxygen documentation](https://commschamp.github.io/cc_tools_qt_doc/) to
    understand how to develop extra plugins.
 
 
