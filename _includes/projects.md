@@ -62,6 +62,7 @@
 |[cc.mqttsn_protocol.cc_tools_plugin](https://github.com/commschamp/cc.mqttsn_protocol.cc_tools_plugin)| The [MQTT-SN](https://github.com/commschamp/cc.mqttsn.commsdsl) **protocol** plugin.|
 |[cc.mqtt5_protocol.cc_tools_plugin](https://github.com/commschamp/cc.mqtt5_protocol.cc_tools_plugin)| The [MQTT v5](https://github.com/commschamp/cc.mqtt5.commsdsl) **protocol** plugin.|
 |[cc.ublox_protocol.cc_tools_plugin](https://github.com/commschamp/cc.mqttsn_protocol.cc_tools_plugin)| The [U-blox](https://github.com/commschamp/cc.mqttsn.commsdsl) (UBX) **protocol** plugin.|
+|[cc.mqtt311_client_filter.cc_tools_plugin](https://github.com/commschamp/cc.mqtt311_client_filter.cc_tools_plugin)| The MQTT v3.1.1 client **filter** plugin.|
 |[cc.mqtt5_client_filter.cc_tools_plugin](https://github.com/commschamp/cc.mqtt5_client_filter.cc_tools_plugin)| The MQTT v5 client **filter** plugin.|
 
 .
