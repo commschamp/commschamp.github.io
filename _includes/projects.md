@@ -45,7 +45,8 @@
 | Repository | Details |
 |----------------------|
 |[cc.mqttsn.libs](https://github.com/commschamp/cc.mqttsn.libs)|[MQTT-SN](https://www.oasis-open.org/committees/download.php/66091/MQTT-SN_spec_v1.2.pdf) client and gateway libraries.|
-|[cc.mqtt5.libs](https://github.com/commschamp/cc.mqtt5.libs)|[MQTT5](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html) client library.|
+|[cc.mqtt311.libs](https://github.com/commschamp/cc.mqtt311.libs)|[MQTT v3.1.1](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html) client library.|
+|[cc.mqtt5.libs](https://github.com/commschamp/cc.mqtt5.libs)|[MQTT v5](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html) client library.|
 
 .
 
