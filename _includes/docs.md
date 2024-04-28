@@ -96,10 +96,13 @@
   of the [comms](https://github.com/commschamp/comms) project.
 
 - [CommsChampion Tools](https://commschamp.github.io/cc_tools_qt_doc) - Doxygen documentation
-  of the [cc_tools_qt](https://github.com/commschamp/cc_tools_qt) project.
+  of the [cc_tools_qt](https://github.com/commschamp/cc_tools_qt) library.
+
+- [MQTT v3.1.1 Client Library](https://commschamp.github.io/cc_mqtt5_client_doc) - Doxygen documentation
+  of the client library from the [cc.mqtt311.libs](https://github.com/commschamp/cc.mqtt5.libs) project.
 
 - [MQTT v5 Client Library](https://commschamp.github.io/cc_mqtt5_client_doc) - Doxygen documentation
-  of the [cc.mqtt5.libs](https://github.com/commschamp/cc.mqtt5.libs) project.
+  of the client library from the [cc.mqtt5.libs](https://github.com/commschamp/cc.mqtt5.libs) project.
 
 - [MQTT-SN Client Library](https://commschamp.github.io/cc_mqttsn_client_doc/) -
   Doxygen documentation of the client library from the
