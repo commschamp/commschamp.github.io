@@ -52,7 +52,7 @@ All available schema-based binary protocol generation solutions have
 multiple limitations. These include an inability to specify binary data layout or
 customize data structures used in the generated code. Additionally, they cannot
 provide or customize polymorphic interfaces to allow the implementation of common
-code that can work for all message objects. Most available tools lack the ability
+code that can work for all message objects. Most available tools lack an ability
 to customize and/or use multiple transport frames for the same messages, but
 transferred over different I/O links. Few, if any, allow the injection of manually
 written code snippets in case the generated code is incomplete and/or incorrect.
@@ -196,7 +196,7 @@ provided libraries strive to adhere to the following principles:
 
 - **Provide a simple, asynchronous, and non-blocking interface.**
 
-- **Offer the ability to customize the data structures and/or available functionality via compile-time configuration:**
+- **Offer an ability to customize the data structures and/or available functionality via compile-time configuration:**
   This makes it suitable for embedded systems (including bare-metal ones without heap).
 
 - **Allow easy implementation of client/server applications**: Use any favorite event loop framework (such as Qt or Boost.Asio) or RTOS.
