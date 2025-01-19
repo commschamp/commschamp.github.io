@@ -1,5 +1,5 @@
 ---
-date: 2025-01-10 00:00:01
+date: 2025-01-20 00:00:01
 title: Multiple releases in the CommsChampion Ecosystem
 categories:
   - news
