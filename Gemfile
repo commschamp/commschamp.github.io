@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.9.0'
-gem 'kramdown', '>= 2.3.1'
+gem 'jekyll'
+gem 'kramdown'
 gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
@@ -14,4 +14,4 @@ group :jekyll_plugins do
 
 end
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
