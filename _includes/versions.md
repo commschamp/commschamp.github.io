@@ -2,6 +2,7 @@ Versions Compatibilty Table
 
 | commsdsl2comms | COMMS Library | CommsDSL Specification |
 |---------------------------------------------------------|
+| (>=) v7.2 | (>=) v5.4.4 | (<=) v7.1|
 | (>=) v7.1 | (>=) v5.4.2 | (<=) v7.0|
 | (>=) v7.0 | (>=) v5.3 | (<=) v7.0|
 | (>=) v6.3.2 | (>=) v5.2.3 | (<=) v6.1|
